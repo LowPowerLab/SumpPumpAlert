@@ -312,7 +312,7 @@ def MAIN():
               #if DEBUG:
               #  print "SUMP PUMP ALERT! - Water level is  ", int(dataParts[1], "cm. Sending SMS..."
                 
-              EMAIL_TO = "3137279198@txt.att.net"
+              EMAIL_TO = "cellPhoneNumber@txt.att.net" #or whatever your carrier might be
               EMAIL_FROM = "felix@lowpowerlab.com"
               EMAIL_BODY = string.join((
                       "From: %s" % EMAIL_FROM,
